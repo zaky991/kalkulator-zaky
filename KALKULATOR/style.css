@@ -1,0 +1,57 @@
+body {
+    position: relative;
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+.calculator{
+    position: relative;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+.calcButtons{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.userInput{
+    position: relative;
+    background-color: white;
+    grid-column: 1/5;
+    margin-bottom: 5px;
+    height: 0.1em;
+    padding: 2em;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.userEntry{
+    position: absolute;
+    text-align: right;
+    right: 0;
+}
+
+.FinalCalc{
+    position: absolute;
+    text-align: right;
+    top: 0;
+    right: 0;
+}
+
+button{
+    padding: 10px;
+    border-style: outset;
+    box-shadow: 0 0 0px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: powderblue;
+}
